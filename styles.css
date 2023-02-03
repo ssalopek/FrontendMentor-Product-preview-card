@@ -46,10 +46,6 @@ img {
     border-radius: 0.75rem 0 0 0.75rem;
 }
 
-.product-image .mobile-image {
-    display: none;
-}
-
 /* Product content */
 .product-content {
     background: var(--color-white);
@@ -75,6 +71,7 @@ img {
 .special-price {
     font-family: "Fraunces";
     color: var(--color-cyan);
+    font-size: 2rem;
 }
 
 .old-price {
@@ -126,10 +123,7 @@ img {
         row-gap: 1rem;
         border-radius: 0 0 0.75rem 0.75rem;
     }
-    .product-image .desktop-image {
-        display: none;
-    }
-    .product-image .mobile-image {
+    .product-image img {
         display: block;
         border-radius: 0.75rem 0.75rem 0 0;
     }
