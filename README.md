@@ -29,7 +29,7 @@ Users should be able to:
 
 ### Links
 
-- [https://ssalopek.github.io/frontendmentor-product-preview-card/](Live Site URL:)
+- [https://ssalopek.github.io/frontendmentor-product-preview-card/] (Live Site URL:)
 
 ## My process
 
