@@ -13,8 +13,6 @@ This is a solution to the [Product preview card component challenge on Frontend 
   - [Useful resources](#useful-resources)
 - [Author](#author)
 
-**Note: Delete this note and update the table of contents based on what sections you keep.**
-
 ## Overview
 
 ### The challenge
@@ -25,14 +23,12 @@ Users should be able to:
 - See hover and focus states for interactive elements
 
 ### Screenshot
-
 ![](./screenshoots/screenshoot_desktop.png)
-![](./screenshoots/screenshoot_mobile.png.png)
+![](./screenshoots/screenshoot_mobile.png)
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- [https://ssalopek.github.io/frontendmentor-product-preview-card/] (Live Site URL:)
 
 ## My process
 
@@ -49,5 +45,4 @@ Users should be able to:
 
 ## Author
 
-- Website - [Add your name here](https://www.your-site.com)
 - Frontend Mentor - [@ssalopek](https://www.frontendmentor.io/profile/ssalopek)
