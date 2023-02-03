@@ -30,7 +30,7 @@ p {
     color: var(--color-gray-blue);
 }
 
-img {
+img, picture {
     height: 100%;
 }
 
