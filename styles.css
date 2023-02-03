@@ -1,0 +1,134 @@
+@import "reset.css";
+
+:root {
+    --color-cyan: hsl(158, 36%, 37%);
+    --color-cream: hsl(30, 38%, 92%);
+    --color-dark-blue: hsl(212, 21%, 14%);
+    --color-gray-blue: hsl(228, 12%, 48%);
+    --color-white: hsl(0, 0%, 100%);
+}
+
+body {
+    font-family: "Montserrat";
+    background-color: var(--color-cream);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    row-gap: 16px;
+}
+
+h1 {
+    font-family: "Fraunces";
+    color: var(--color-dark-blue);
+    line-height: 32px;
+}
+
+p {
+    font-size: 14px;
+    color: var(--color-gray-blue);
+}
+
+img {
+    height: 100%;
+}
+
+.product-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 0 auto;
+    width: 600px;
+}
+
+.product-image img {
+    width: 100%;
+    border-radius: 12px 0 0 12px;
+}
+
+.product-image .mobile-image {
+    display: none;
+}
+
+/* Product content */
+.product-content {
+    background-color: var(--color-white);
+    display: flex;
+    flex-direction: column;
+    row-gap: 24px;
+    width: 100%;
+    padding: 36px;
+    border-radius: 0 12px 12px 0;
+}
+
+.subtitle {
+    text-transform: uppercase;
+    letter-spacing: 4px;
+}
+
+.price-container {
+    display: flex;
+    align-items: center;
+    column-gap: 18px;
+}
+
+.special-price {
+    font-family: "Fraunces";
+    color: var(--color-cyan);
+}
+
+.old-price {
+    text-decoration: line-through;
+}
+
+.cart-container {
+    background-color: var(--color-cyan);
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 8px;
+    padding: 18px;
+    border: none;
+}
+
+.cart-container img {
+    height: auto;
+}
+
+.cart-container .label {
+    font-weight: 700;
+}
+.cart-container:hover,
+.cart-container:focus {
+    background-color: var(--color-dark-blue);
+    cursor: pointer;
+}
+
+.cart-container .label {
+    color: var(--color-white);
+}
+
+/* MOBILE */
+@media screen and (max-width: 768px) {
+    body {
+        justify-content: flex-start;
+    }
+    .product-container {
+        grid-template-columns: auto;
+        grid-template-rows: auto 1fr;
+        width: 90%;
+        margin-top: 24px;
+    }
+    .product-content {
+        padding: 24px;
+        row-gap: 18px;
+        border-radius: 0 0 12px 12px;
+    }
+    .product-image .desktop-image {
+        display: none;
+    }
+    .product-image .mobile-image {
+        display: block;
+        border-radius: 12px 12px 0 0;
+    }
+}
