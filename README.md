@@ -23,10 +23,10 @@ Users should be able to:
 - See hover and focus states for interactive elements
 
 ### Screenshot
-Desktop
+- Desktop
 ![](./screenshoots/screenshoot_desktop.png)
 
-Mobile
+- Mobile
 ![](./screenshoots/screenshoot_mobile.png)
 
 ### Links
